@@ -1,0 +1,17 @@
+{
+  "name": "auth0-box-jquery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Auth0",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-hbs": "^0.8.4",
+    "morgan": "^1.6.1",
+    "nconf": "^0.8.2",
+    "winston": "^2.1.0"
+  }
+}
