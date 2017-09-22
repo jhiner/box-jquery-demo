@@ -1,5 +1,6 @@
 {
   "AUTH0_DOMAIN": "you.auth0.com",
   "AUTH0_CLIENT_ID": "your-client-id",
-  "CALLBACK_URL": "http://demo.com:7001/"
+  "CALLBACK_URL": "http://demo.com:7001/",
+  "BOX_API_IDENTIFIER": "urn:box-api7"
 }

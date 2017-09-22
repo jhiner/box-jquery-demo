@@ -75,7 +75,7 @@
           e.preventDefault();
 
           auth0.authorize({
-            audience: 'urn:box-api7',
+            audience: '{{ BOX_API_IDENTIFIER }}',
             scope: 'openid name email',
             responseType: 'token id_token',
             redirectUri: '{{ CALLBACK_URL }}'

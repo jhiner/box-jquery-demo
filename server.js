@@ -26,7 +26,8 @@ app.get('/', (req, res) => {
   res.render('index', {
     CALLBACK_URL: nconf.get('CALLBACK_URL'),
     AUTH0_DOMAIN: nconf.get('AUTH0_DOMAIN'),
-    AUTH0_CLIENT_ID: nconf.get('AUTH0_CLIENT_ID')
+    AUTH0_CLIENT_ID: nconf.get('AUTH0_CLIENT_ID'),
+    BOX_API_IDENTIFIER: nconf.get('BOX_API_IDENTIFIER'),
   });
 });
 
